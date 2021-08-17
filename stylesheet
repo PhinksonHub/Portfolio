@@ -1,0 +1,13 @@
+title
+display-flex
+
+
+.nav {
+background-color: rgb(163, 163, 91);
+margin: 5px;
+width: 120px;
+font-size: 20px;
+padding:0ch;
+border: 3px;
+flex-flow:row-wrap; 
+} 

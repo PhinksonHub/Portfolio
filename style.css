@@ -1,0 +1,109 @@
+/*flexbox*/
+* {
+  box-sizing: border-box;
+ }
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px)   {
+    header h1 a {
+        /*this will be applied on any screen smaller than 980px */
+        color:aqua;
+    }
+
+    }   
+     /* MEDIA QUERY FOR TABLETS AND SMALLER */
+    @media screen and (max-width: 768px) {
+     header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      padding: 30px 15px;
+      font-size: 80px;
+        }
+    }
+  
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
+  }   
+
+    
+
+
+/*set background color*/
+header {
+   shape-image-threshold: initial;
+    background-color:rgb(190, 201, 128); 
+    margin: 10px;
+    padding: 30px;
+    height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow:column wrap;
+    align-items:img= center;
+    justify-content: flex-start;
+    align-content:space-between;
+ }
+
+header h1 {
+  font-size:60px;
+}
+ 
+.nav {
+background-color: rgb(163, 163, 91);
+margin: 5px;
+width: 120px;
+font-size: 40px; 
+font-style:inherit;
+padding:0ch;
+border: 3px;
+flex-flow:row-wrap; 
+}
+  section {
+    background-color:rgb(204, 172, 177);
+    margin: 5px auto;
+    width:200px;
+    flex: 0 1 auto;
+ }
+ .div3 {
+    background-color:rgb(245, 237, 237)   ;
+    margin: 5px;
+    width: 200px;
+    flex: 0 1 auto; 
+ }
+ 
+.div4 {
+ background-color: yellowgreen;
+ margin: 5px;
+ width: 200px;
+ flex: 0 1 auto;}
+ 
+
+  
+ .div5{
+background-color: peachpuf;
+ margin: 5px;
+ width: 200px;
+ flex: 0 1 auto; 
+ }
+ 
+    
+ .div6 {
+ background-color: 5px;
+ width: 200px;
+ flex: 0 1 auto; 
+ }
+
+ /* Footer */
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 30px;
+    /* background-color: #D0DAEE; */
+    background-color: brown;
+  }
+    
