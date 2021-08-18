@@ -60,50 +60,45 @@ padding:0ch;
 border: 3px;
 flex-flow:row-wrap; 
 }
-  section {
-    background-color:rgb(204, 172, 177);
+
+#work {
+ 
+  min-height: 500px; 
+  
+}
+
+  #About {
+    
     margin: 5px auto;
-    width:200px;
-    flex: 0 1 auto;
+    /* width:200px; */
+    /* flex: 0 1 auto; */
  }
- .div3 {
-    background-color:rgb(245, 237, 237)   ;
+ #projects {
+    
     margin: 5px;
     width: 200px;
     flex: 0 1 auto; 
  }
  
-.div4 {
- background-color: yellowgreen;
+#contact  {
+ -moz-text-decoration-line: none;
+ text-align: start;
+ text-decoration-line: none;
  margin: 5px;
  width: 200px;
- flex: 0 1 auto;}
- 
-
-  
- .div5{
-background-color: peachpuf;
- margin: 5px;
- width: 200px;
- flex: 0 1 auto; 
- }
- 
+ flex: 0 1 auto;
+}
     
- .div6 {
- background-color: 5px;
- width: 200px;
- flex: 0 1 auto; 
- }
-
  /* Footer */
 
-footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height: 30px;
-    /* background-color: #D0DAEE; */
-    background-color: brown;
-  }
-    
+ footer {
+  position: fixed;
+  text-align: center;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 30px;
+  /* background-color: #D0DAEE; */
+  background-color: brown;
+}
+  
