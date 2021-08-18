@@ -51,6 +51,7 @@ header h1 {
 }
  
 .nav {
+display:inline-block;  
 background-color: rgb(163, 163, 91);
 margin: 5px;
 width: 120px;
@@ -83,7 +84,7 @@ flex-flow:row-wrap;
 #contact  {
  -moz-text-decoration-line: none;
  text-align: start;
- text-decoration-line: none;
+ text-decoration-line:none;
  margin: 5px;
  width: 200px;
  flex: 0 1 auto;
